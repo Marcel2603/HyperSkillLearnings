@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Magic Form</title>
+</head>
+<body onload="initLoad()">
+<nav>
+    <a id="form-link" href="index.html">Form</a>
+    <a id="history-link" href="history.html">History</a>
+</nav>
+<form>
+    <label for="first-name">First name</label><input oninput="onChangeNew(this)" type="text" id="first-name" name="first-name">
+    <label for="last-name">Last name</label><input oninput="onChangeNew(this)"  type="text" id="last-name" name="last-name">
+    <label for="email">Email</label><input oninput="onChangeNew(this)" type="text" id="email" name="email">
+    <label for="phone">Phone</label><input oninput="onChangeNew(this)" type="text" id="phone" name="phone">
+    <label for="company">Company</label><input oninput="onChangeNew(this)" type="text" id="company" name="company">
+    <label for="address">Address</label><input oninput="onChangeNew(this)" type="text" id="address" name="address">
+    <button type="submit" id="submit-button">Submit form</button>
+</form>
+</body>
+<script src="script.js" type="application/javascript"></script>
+</html>
