@@ -1,0 +1,15 @@
+{
+  "name": "coffeemachine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "coffeeMachine.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "play": "node coffeeMachine.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sync-input": "https://github.com/hyperskill/sync-input/archive/v1.tar.gz"
+  }
+}
